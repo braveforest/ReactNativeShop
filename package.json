@@ -1,0 +1,27 @@
+{
+  "name": "ReactNativeShop",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "^16.7.0-alpha.2",
+    "react-native": "npm:@brunolemos/react-native"
+  },
+  "devDependencies": {
+    "@types/react": "^16.7.17",
+    "@types/react-native": "^0.57.18",
+    "babel-jest": "23.6.0",
+    "jest": "23.6.0",
+    "metro-react-native-babel-preset": "0.51.0",
+    "react-test-renderer": "16.6.3"
+  },
+  "resolutions": {
+    "scheduler": "0.12.0-alpha.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
